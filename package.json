@@ -1,6 +1,6 @@
 {
   "name": "key-searcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Recursively search for keys inside JSON objects and retrieve their values.",
   "main": "index.js",
   "scripts": {
