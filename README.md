@@ -40,7 +40,7 @@ console.log(newJSON);
 - Does not mutate the original object
 
 ## Example
-```
+```javascript
 //Given a JSON object with nested keys like the following:
 const obj1 = {
   key1: false,
