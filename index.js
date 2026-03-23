@@ -32,7 +32,7 @@ function searchForKey(obj, key, newObject){
 	return null;
 }
 
-function search(obj, ...keysToSearch){
+function searchIn(obj, ...keysToSearch){
 	const objectWhitoutNulls = changeNullforFalse(obj) 
 	let flattenedJSON = {}
 	const len = keysToSearch.length
@@ -49,4 +49,4 @@ function search(obj, ...keysToSearch){
 	return flattenedJSON;
 }
 
-export default search;
+export default searchIn;
