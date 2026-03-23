@@ -17,6 +17,8 @@ npm install key-searcher
 
 ## Example
 ```javascript
+import searchIn from "key-searcher";
+
 //Given a JSON object with nested keys like the following:
 const obj1 = {
   key1: false,
