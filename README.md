@@ -72,7 +72,7 @@ const newJSON = searchIn(obj1, "key25", "key1", "key6");
 ```
 ## Behavior & Notes
 - What happens if a key is not found? The result will be set to `undefined`.
-- If the value of a key is a nested object, the entire subtree of that object will appear in the result, as shown with `key8` in the example.
+- If the value of a key is a nested object, the entire subtree of that object will appear in the result, as shown with `key6` in the example.
 - The original JSON is not modified during the search.
 - Only matching branches are preserved in the output.
 
