@@ -1,0 +1,33 @@
+{
+  "name": "key-searcher",
+  "version": "1.0.0",
+  "description": "Recursively search for keys inside JSON objects and retrieve their values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GitHub: ADN2212",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "json",
+    "keys",
+    "search",
+    "recursive",
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ADN2212/key-searcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ADN2212/key-searcher/issues"
+  },
+  "homepage": "https://github.com/ADN2212/key-searcher"
+}
