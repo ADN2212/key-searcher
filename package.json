@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "GitHub: ADN2212",
+  "author": "https://github.com/ADN2212/",
   "license": "MIT",
   "type": "module",
   "exports": {
