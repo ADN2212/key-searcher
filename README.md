@@ -8,30 +8,6 @@ Lightweight utility to recursively search for keys in JSON objects and return a 
 npm install key-searcher
 ```
 
-## Usage
-```javascript
-const obj1 = {
-  key1: false,
-  key2: {
-    key3: "val2",
-    key4: {
-      key5: "val3",
-      key6: {
-        key7: "val4",
-        key8: {
-          key9: "val5",
-        },
-      },
-    },
-    key5: "val4",
-  },
-  key10: { key11: "val6" },
-};
-
-const newJSON = searchIn(obj1, "key25", "key1", "key6");
-console.log(newJSON);
-```
-
 ## What it does ?
 - Traverses objects recursively
 - Finds matching keys at any depth
