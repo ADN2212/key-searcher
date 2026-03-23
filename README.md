@@ -41,7 +41,7 @@ const obj1 = {
 //when passing it as the first argument to the function, in addition to the keys you want to search for
 const newJSON = searchIn(obj1, "key25", "key1", "key6");
 
-//the result will look like the followingL
+//the result will look like the following:
 {
   key25: undefined,
   key1: false,
