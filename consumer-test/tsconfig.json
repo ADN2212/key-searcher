@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "noEmit": true
+  },
+  "include": ["*.ts"]
+}

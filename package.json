@@ -3,8 +3,16 @@
   "version": "1.0.3",
   "description": "Recursively search for keys inside JSON objects and retrieve their values.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest && npm run typecheck --prefix consumer-test",
+    "test:types": "tsd"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "tsd": {
+    "entrypoint": "index.d.ts"
   },
   "author": "https://github.com/ADN2212/",
   "license": "MIT",
@@ -13,7 +21,8 @@
     ".": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "json",
@@ -29,5 +38,10 @@
   "bugs": {
     "url": "https://github.com/ADN2212/key-searcher/issues"
   },
-  "homepage": "https://github.com/ADN2212/key-searcher"
+  "homepage": "https://github.com/ADN2212/key-searcher",
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "tsd": "^0.33.0",
+    "typescript": "^6.0.3"
+  }
 }

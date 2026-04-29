@@ -1,0 +1,14 @@
+{
+  "name": "key-searcher-consumer-test",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "key-searcher": "file:.."
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
