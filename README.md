@@ -2,6 +2,8 @@
 
 Lightweight utility to recursively search for keys in JSON objects and return a filtered object with matching keys.
 
+Website: https://key-searcher.online/
+
 ## Installation
 
 ```bash
@@ -9,13 +11,15 @@ npm install key-searcher
 ```
 
 ## What it does ?
-- Traverses objects recursively
-- Finds matching keys at any depth
-- Returns a new object containing only the matched keys
-- Preserves the original structure where matches are found
-- Does not mutate the original object
+
+* Traverses objects recursively
+* Finds matching keys at any depth
+* Returns a new object containing only the matched keys
+* Preserves the original structure where matches are found
+* Does not mutate the original object
 
 ## Example
+
 ```javascript
 import searchIn from "key-searcher";
 
@@ -48,13 +52,16 @@ const newJSON = searchIn(obj1, "key25", "key1", "key6");
   key6: { key7: 'val4', key8: { key9: 'val5' } }
 }
 ```
+
 ## Behavior & Notes
-- What happens if a key is not found? The result will be set to `undefined`.
-- If the value of a key is a nested object, the entire subtree of that object will appear in the result, as shown with `key6` in the example.
-- The original JSON is not modified during the search.
-- Only matching branches are preserved in the output.
+
+* What happens if a key is not found? The result will be set to `undefined`.
+* If the value of a key is a nested object, the entire subtree of that object will appear in the result, as shown with `key6` in the example.
+* The original JSON is not modified during the search.
+* Only matching branches are preserved in the output.
 
 ## Use Cases
-- Filtering API responses
-- Extracting specific fields from deeply nested data
-- Cleaning large JSON structures
+
+* Filtering API responses
+* Extracting specific fields from deeply nested data
+* Cleaning large JSON structures
